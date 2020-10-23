@@ -1,0 +1,101 @@
+{"menu": {
+    "items": [
+        {
+            "name":"Coke",
+            "category":0,
+            "sizes":["small","large"]
+        },
+        {
+            "name":"Pepsi",
+            "category":0,
+            "sizes":["small","large"]
+        },
+        {
+            "name":"Water",
+            "category":0,
+            "sizes":["small","large"]
+        },
+        {
+            "name":"Mtn. Dew",
+            "category":0,
+            "sizes":["small","large"]
+        },
+        {
+            "name":"Jalapeno Poppers",
+            "category":1,
+            "sizes":["small","large"]
+        },
+        {
+            "name":"Fries",
+            "category":1,
+            "sizes":["small","large"]
+        },
+        {
+            "name":"Mozzerella Sticks",
+            "category":1,
+            "sizes":["small","large"],
+            "ingridients": "Mozzarella Cheese coated in seasoned Italian Breadcrumbs, deep fried in oil"
+        },
+        {
+            "name":"Italian Sub",
+            "category":2,
+            "sizes": ["6 in","footlong"],
+            "ingridients": "Ham, Salami, Capicolla, Provolone Cheese, Lettuce, Onion, Oil and Vinegar, Cracked Black Pepper, Dried Oregano and Mayo"
+        },
+        {
+            "name": "Wise Guy Sub",
+            "category":2,
+            "sizes": ["6 in", "footlong"],
+            "ingridients": "Turkey, Ham, Roast beef, Lettuce, Tomato, Onion, Honey Mustard and Mayo on an Italian Sub roll"
+        },
+        {
+            "name": "Cousin Manny Sub",
+            "category": 2,
+            "sizes": ["6 in", "footlong"],
+            "ingridients": "Mortadella, Pesto, Artichoke Hearts, Sundried tomatoes, Provolone cheese"
+        },
+        {
+            "name": "Chicken Parmesan",
+            "category": 3,
+            "sizes": ["6 in", "footlong"],
+            "ingridients": "Breaded Chicken, Pizza Sauce and Mozzarella Cheese toasted on an Italian sub roll"
+        },
+        {
+            "name": "Chicken Cordon Bleu",
+            "category": 3,
+            "sizes": ["6 in", "footlong"],
+            "ingridients": "Grilled Chicken, Ham, Swiss cheese, Lettuce, Tomato and Honey Mustard toasted on an Italian sub roll"
+        },
+        {
+            "name": "Roma",
+            "category": 3,
+            "sizes": ["6 in", "footlong"],
+            "ingridients": "Marinated Eggplant, Pesto, Sundried Tomatoes, Provolone Cheese, Lettuce, and Tomato toasted on an Italian sub roll"   
+        },
+        {
+            "name": "Deep Fried Oreos",
+            "category": 4,
+            "sizes": ["small", "large"],
+            "ingridients": "Oreo cookies dipped in batter, and Powdered Sugar deep fried in Vegetable oil"
+        },
+        {
+            "name": "Cannoli",
+            "category": 4,
+            "sizes": ["small", "large"],
+            "ingridients": "Ricotta, Cream, Cheese, Sugar, Egg, Chocolate Chips, Flour, Powdered sugar and Ground Cinnamon in a tube shapped shell of fried pastry dough"
+        },
+        {
+            "name": "Tiramisu",
+            "category": 4,
+            "sizes": ["3.5in", "7.5in"],
+            "ingridients": "Mascarpone, Ladyfinger, Egg, Chocolate, Cream, Coffee, Cheese, Sugar, Yolk, Cocoa Solids and Expresso"
+        }
+    ],
+    "categories":[
+        "Drinks",
+        "Appetizers",
+        "Cold Sandwiches",
+        "Hot Sandwiches",
+        "Desserts"
+    ]
+}}
