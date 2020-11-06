@@ -1,6 +1,4 @@
 const planets = [
-
-
 {
     "count": 60,
     "next": "http://swapi.dev/api/planets/?page=2",
@@ -243,7 +241,7 @@ const planets = [
 
 ]
 
-for (var i = 0; planets.length; i++) {
+for (var i = 0; planets.results.length; i++) {
     let newLi = document.createElement('li')
     newLi.innerHTML = `Name: ${planets[i].name} <br> Rotation Period: ${planets[i].rotation_period} <br> Orbital Period: ${planets[i].orbital_period} <br> Diameter: ${planets[i].diameter} <br> Climate: ${planets[i].climate} <br> Gravity: ${planets[i].gravity} <br> Terrain: ${planets[i].terrain} <br> Surface Water: ${planets[i].surface_water} <br> Population: ${planets[i].population} <br> Residents: ${planets[i].residents} <br> Films: ${planets[i].films} <br> URL: ${planets[i].url}`
     document.getElementById('list').appendChild(newLi)
