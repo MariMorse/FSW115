@@ -1,7 +1,7 @@
 axios.get("https://api.vschool.io/marianne1/todo")
     .then(response => {
 
-        for(let i=0; i<response.data.length; i++) {
+        for(let i = 0; i < response.data.length; i++) {
 
             const newDiv = document.createElement("div")
             document.body.appendChild(newDiv)
