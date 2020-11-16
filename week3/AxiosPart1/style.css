@@ -2,12 +2,12 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color:rgb(3, 199, 199);
+    background-color:rgb(228, 130, 220);
     font-family: 'Architects Daughter', cursive;
 }
 
 #intro {
-    background-color: rgb(7, 109, 109);
+    background-color: rgb(226, 60, 218);
 }
 div {
     text-align: center;
