@@ -1,7 +1,7 @@
 const button = document.getElementById('button1')
 
 function buttonClick() {
-    axios.get("https://opentdb.com/api.php?amount=10&category=23")
+    axios.get("https://opentdb.com/api.php?amount=10")
         .then(response => {
             for (let i=0; i<response.data.length; i++) {
 
