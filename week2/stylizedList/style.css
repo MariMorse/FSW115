@@ -23,5 +23,5 @@ li {
 }
 
 li:nth-child(odd) {
-    background-color: yellowgreen;
+    background-color: lightgrey;
 }

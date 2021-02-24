@@ -1,5 +1,184 @@
-const planets = '{"count":60,"next":"http:\/\/swapi.dev\/api\/planets\/?page=2","previous":null,"results":[{"name":"Tatooine","rotation_period":"23","orbital_period":"304","diameter":"10465","climate":"arid","gravity":"1 standard","terrain":"desert","surface_water":"1","population":"200000","residents":["http:\/\/swapi.dev\/api\/people\/1\/","http:\/\/swapi.dev\/api\/people\/2\/","http:\/\/swapi.dev\/api\/people\/4\/","http:\/\/swapi.dev\/api\/people\/6\/","http:\/\/swapi.dev\/api\/people\/7\/","http:\/\/swapi.dev\/api\/people\/8\/","http:\/\/swapi.dev\/api\/people\/9\/","http:\/\/swapi.dev\/api\/people\/11\/","http:\/\/swapi.dev\/api\/people\/43\/","http:\/\/swapi.dev\/api\/people\/62\/"],"films":["http:\/\/swapi.dev\/api\/films\/1\/","http:\/\/swapi.dev\/api\/films\/3\/","http:\/\/swapi.dev\/api\/films\/4\/","http:\/\/swapi.dev\/api\/films\/5\/","http:\/\/swapi.dev\/api\/films\/6\/"],"created":"2014-12-09T13:50:49.641000Z","edited":"2014-12-20T20:58:18.411000Z","url":"http:\/\/swapi.dev\/api\/planets\/1\/"},{"name":"Alderaan","rotation_period":"24","orbital_period":"364","diameter":"12500","climate":"temperate","gravity":"1 standard","terrain":"grasslands, mountains","surface_water":"40","population":"2000000000","residents":["http:\/\/swapi.dev\/api\/people\/5\/","http:\/\/swapi.dev\/api\/people\/68\/","http:\/\/swapi.dev\/api\/people\/81\/"],"films":["http:\/\/swapi.dev\/api\/films\/1\/","http:\/\/swapi.dev\/api\/films\/6\/"],"created":"2014-12-10T11:35:48.479000Z","edited":"2014-12-20T20:58:18.420000Z","url":"http:\/\/swapi.dev\/api\/planets\/2\/"},{"name":"Yavin IV","rotation_period":"24","orbital_period":"4818","diameter":"10200","climate":"temperate, tropical","gravity":"1 standard","terrain":"jungle, rainforests","surface_water":"8","population":"1000","residents":[],"films":["http:\/\/swapi.dev\/api\/films\/1\/"],"created":"2014-12-10T11:37:19.144000Z","edited":"2014-12-20T20:58:18.421000Z","url":"http:\/\/swapi.dev\/api\/planets\/3\/"},{"name":"Hoth","rotation_period":"23","orbital_period":"549","diameter":"7200","climate":"frozen","gravity":"1.1 standard","terrain":"tundra, ice caves, mountain ranges","surface_water":"100","population":"unknown","residents":[],"films":["http:\/\/swapi.dev\/api\/films\/2\/"],"created":"2014-12-10T11:39:13.934000Z","edited":"2014-12-20T20:58:18.423000Z","url":"http:\/\/swapi.dev\/api\/planets\/4\/"},{"name":"Dagobah","rotation_period":"23","orbital_period":"341","diameter":"8900","climate":"murky","gravity":"N\/A","terrain":"swamp, jungles","surface_water":"8","population":"unknown","residents":[],"films":["http:\/\/swapi.dev\/api\/films\/2\/","http:\/\/swapi.dev\/api\/films\/3\/","http:\/\/swapi.dev\/api\/films\/6\/"],"created":"2014-12-10T11:42:22.590000Z","edited":"2014-12-20T20:58:18.425000Z","url":"http:\/\/swapi.dev\/api\/planets\/5\/"},{"name":"Bespin","rotation_period":"12","orbital_period":"5110","diameter":"118000","climate":"temperate","gravity":"1.5 (surface), 1 standard (Cloud City)","terrain":"gas giant","surface_water":"0","population":"6000000","residents":["http:\/\/swapi.dev\/api\/people\/26\/"],"films":["http:\/\/swapi.dev\/api\/films\/2\/"],"created":"2014-12-10T11:43:55.240000Z","edited":"2014-12-20T20:58:18.427000Z","url":"http:\/\/swapi.dev\/api\/planets\/6\/"},{"name":"Endor","rotation_period":"18","orbital_period":"402","diameter":"4900","climate":"temperate","gravity":"0.85 standard","terrain":"forests, mountains, lakes","surface_water":"8","population":"30000000","residents":["http:\/\/swapi.dev\/api\/people\/30\/"],"films":["http:\/\/swapi.dev\/api\/films\/3\/"],"created":"2014-12-10T11:50:29.349000Z","edited":"2014-12-20T20:58:18.429000Z","url":"http:\/\/swapi.dev\/api\/planets\/7\/"},{"name":"Naboo","rotation_period":"26","orbital_period":"312","diameter":"12120","climate":"temperate","gravity":"1 standard","terrain":"grassy hills, swamps, forests, mountains","surface_water":"12","population":"4500000000","residents":["http:\/\/swapi.dev\/api\/people\/3\/","http:\/\/swapi.dev\/api\/people\/21\/","http:\/\/swapi.dev\/api\/people\/35\/","http:\/\/swapi.dev\/api\/people\/36\/","http:\/\/swapi.dev\/api\/people\/37\/","http:\/\/swapi.dev\/api\/people\/38\/","http:\/\/swapi.dev\/api\/people\/39\/","http:\/\/swapi.dev\/api\/people\/42\/","http:\/\/swapi.dev\/api\/people\/60\/","http:\/\/swapi.dev\/api\/people\/61\/","http:\/\/swapi.dev\/api\/people\/66\/"],"films":["http:\/\/swapi.dev\/api\/films\/3\/","http:\/\/swapi.dev\/api\/films\/4\/","http:\/\/swapi.dev\/api\/films\/5\/","http:\/\/swapi.dev\/api\/films\/6\/"],"created":"2014-12-10T11:52:31.066000Z","edited":"2014-12-20T20:58:18.430000Z","url":"http:\/\/swapi.dev\/api\/planets\/8\/"},{"name":"Coruscant","rotation_period":"24","orbital_period":"368","diameter":"12240","climate":"temperate","gravity":"1 standard","terrain":"cityscape, mountains","surface_water":"unknown","population":"1000000000000","residents":["http:\/\/swapi.dev\/api\/people\/34\/","http:\/\/swapi.dev\/api\/people\/55\/","http:\/\/swapi.dev\/api\/people\/74\/"],"films":["http:\/\/swapi.dev\/api\/films\/3\/","http:\/\/swapi.dev\/api\/films\/4\/","http:\/\/swapi.dev\/api\/films\/5\/","http:\/\/swapi.dev\/api\/films\/6\/"],"created":"2014-12-10T11:54:13.921000Z","edited":"2014-12-20T20:58:18.432000Z","url":"http:\/\/swapi.dev\/api\/planets\/9\/"},{"name":"Kamino","rotation_period":"27","orbital_period":"463","diameter":"19720","climate":"temperate","gravity":"1 standard","terrain":"ocean","surface_water":"100","population":"1000000000","residents":["http:\/\/swapi.dev\/api\/people\/22\/","http:\/\/swapi.dev\/api\/people\/72\/","http:\/\/swapi.dev\/api\/people\/73\/"],"films":["http:\/\/swapi.dev\/api\/films\/5\/"],"created":"2014-12-10T12:45:06.577000Z","edited":"2014-12-20T20:58:18.434000Z","url":"http:\/\/swapi.dev\/api\/planets\/10\/"}]}';
-
-const json = JSON.parse(planets);
-
-for (var i = 0; json.results.length; i++) {
+const people = [
+    {
+        "id": "fe93adf2-2f3a-4ec4-9f68-5422f1b87c01",
+        "name": "Pazu",
+        "gender": "Male",
+        "age": "13",
+        "eye_color": "Black",
+        "hair_color": "Brown",
+        "films": [
+            "https://ghibliapi.herokuapp.com/films/2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        ],
+        "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+        "url": "https://ghibliapi.herokuapp.com/people/fe93adf2-2f3a-4ec4-9f68-5422f1b87c01"
+    },
+    {
+        "id": "598f7048-74ff-41e0-92ef-87dc1ad980a9",
+        "name": "Lusheeta Toel Ul Laputa",
+        "gender": "Female",
+        "age": "13",
+        "eye_color": "Black",
+        "hair_color": "Black",
+        "films": [
+            "https://ghibliapi.herokuapp.com/films/2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        ],
+        "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+        "url": "https://ghibliapi.herokuapp.com/people/598f7048-74ff-41e0-92ef-87dc1ad980a9"
+    },
+    {
+        "id": "3bc0b41e-3569-4d20-ae73-2da329bf0786",
+        "name": "Dola",
+        "gender": "Female",
+        "age": "60",
+        "eye_color": "Black",
+        "hair_color": "Peach",
+        "films": [
+            "https://ghibliapi.herokuapp.com/films/2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        ],
+        "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+        "url": "https://ghibliapi.herokuapp.com/people/3bc0b41e-3569-4d20-ae73-2da329bf0786"
+    },
+    {
+        "id": "abe886e7-30c8-4c19-aaa5-d666e60d14de",
+        "name": "Romska Palo Ul Laputa",
+        "gender": "Male",
+        "age": "33",
+        "eye_color": "Black",
+        "hair_color": "Brown",
+        "films": [
+            "https://ghibliapi.herokuapp.com/films/2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        ],
+        "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+        "url": "https://ghibliapi.herokuapp.com/people/abe886e7-30c8-4c19-aaa5-d666e60d14de"
+    },
+    {
+        "id": "e08880d0-6938-44f3-b179-81947e7873fc",
+        "name": "Uncle Pom",
+        "gender": "Male",
+        "age": "Unspecified/Elderly",
+        "eye_color": "Black",
+        "hair_color": "White",
+        "films": [
+            "https://ghibliapi.herokuapp.com/films/2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        ],
+        "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+        "url": "https://ghibliapi.herokuapp.com/people/e08880d0-6938-44f3-b179-81947e7873fc"
+    },
+    {
+        "id": "5c83c12a-62d5-4e92-8672-33ac76ae1fa0",
+        "name": "General Muoro",
+        "gender": "Male",
+        "age": "Unspecified/Adult",
+        "eye_color": "Black",
+        "hair_color": "None",
+        "films": [
+            "https://ghibliapi.herokuapp.com/films/2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        ],
+        "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+        "url": "https://ghibliapi.herokuapp.com/people/5c83c12a-62d5-4e92-8672-33ac76ae1fa0"
+    },
+    {
+        "id": "3f4c408b-0bcc-45a0-bc8b-20ffc67a2ede",
+        "name": "Duffi",
+        "gender": "Male",
+        "age": "Unspecified/Adult",
+        "eye_color": "Dark brown",
+        "hair_color": "Dark brown",
+        "films": [
+            "https://ghibliapi.herokuapp.com/films/2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        ],
+        "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+        "url": "https://ghibliapi.herokuapp.com/people/3f4c408b-0bcc-45a0-bc8b-20ffc67a2ede"
+    },
+    {
+        "id": "fcb4a2ac-5e41-4d54-9bba-33068db083ca",
+        "name": "Louis",
+        "gender": "Male",
+        "age": "30",
+        "eye_color": "Dark brown",
+        "hair_color": "Dark brown",
+        "films": [
+            "https://ghibliapi.herokuapp.com/films/2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        ],
+        "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+        "url": "https://ghibliapi.herokuapp.com/people/fcb4a2ac-5e41-4d54-9bba-33068db083ca"
+    },
+    {
+        "id": "2cb76c15-772a-4cb3-9919-3652f56611d0",
+        "name": "Charles",
+        "gender": "Male",
+        "age": "Unspecified/Adult",
+        "eye_color": "Dark brown",
+        "hair_color": "Light brown",
+        "films": [
+            "https://ghibliapi.herokuapp.com/films/2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        ],
+        "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+        "url": "https://ghibliapi.herokuapp.com/people/2cb76c15-772a-4cb3-9919-3652f56611d0"
+    },
+    {
+        "id": "f6f2c477-98aa-4796-b9aa-8209fdeed6b9",
+        "name": "Henri",
+        "gender": "Male",
+        "age": "Unspecified/Adult",
+        "eye_color": "Dark brown",
+        "hair_color": "Reddish brown",
+        "films": [
+            "https://ghibliapi.herokuapp.com/films/2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        ],
+        "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+        "url": "https://ghibliapi.herokuapp.com/people/f6f2c477-98aa-4796-b9aa-8209fdeed6b9"
+    },
+    {
+        "id": "05d8d01b-0c2f-450e-9c55-aa0daa34838e",
+        "name": "Motro",
+        "gender": "Male",
+        "age": "Unspecified/Adult",
+        "eye_color": "Dark brown",
+        "hair_color": "None",
+        "films": [
+            "https://ghibliapi.herokuapp.com/films/2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        ],
+        "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+        "url": "https://ghibliapi.herokuapp.com/people/05d8d01b-0c2f-450e-9c55-aa0daa34838e"
+    },
+    {
+        "id": "b22a684f-1819-40c8-94a6-d40c3b5e18eb",
+        "name": "Okami",
+        "gender": "Female",
+        "age": "50",
+        "eye_color": "Dark brown",
+        "hair_color": "Orange",
+        "films": [
+            "https://ghibliapi.herokuapp.com/films/2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        ],
+        "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+        "url": "https://ghibliapi.herokuapp.com/people/b22a684f-1819-40c8-94a6-d40c3b5e18eb"
+    },
+    {
+        "id": "ba924631-068e-4436-b6de-f3283fa848f0",
+        "name": "Ashitaka",
+        "gender": "Male",
+        "age": "late teens",
+        "eye_color": "Brown",
+        "hair_color": "Brown",
+        "films": [
+            "https://ghibliapi.herokuapp.com/films/0440483e-ca0e-4120-8c50-4c8cd9b965d6"
+        ],
+        "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+        "url": "https://ghibliapi.herokuapp.com/people/ba924631-068e-4436-b6de-f3283fa848f0"
+    },
+    {
+        "id": "ebe40383-aad2-4208-90ab-698f00c581ab",
+        "name": "San",
+        "gender": "Female",
+        "age": "17",
+        "eye_color": "Brown",
+        "hair_color": "Brown",
+        "films": [
+            "https://ghibliapi.herokuapp.com/films/0440483e-ca0e-4120-8c50-4c8cd9b965d6"
+        ],
+        "species": "https://ghibliapi.herokuapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2",
+        "url": "https://ghibliapi.herokuapp.com/people/ebe40383-aad2-4208-90ab-698f00c581ab"
+    },
+    {
