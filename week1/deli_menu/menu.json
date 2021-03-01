@@ -1,101 +1,79 @@
-{"menu": {
-    "items": [
+{
+    "menu": [
         {
-            "name":"Coke",
-            "category":0,
-            "sizes":["small","large"]
-        },
-        {
-            "name":"Pepsi",
-            "category":0,
-            "sizes":["small","large"]
-        },
-        {
-            "name":"Water",
-            "category":0,
-            "sizes":["small","large"]
-        },
-        {
-            "name":"Mtn. Dew",
-            "category":0,
-            "sizes":["small","large"]
-        },
-        {
-            "name":"Jalapeno Poppers",
-            "category":1,
-            "sizes":["small","large"]
-        },
-        {
-            "name":"Fries",
-            "category":1,
-            "sizes":["small","large"]
-        },
-        {
-            "name":"Mozzerella Sticks",
-            "category":1,
-            "sizes":["small","large"],
-            "ingridients": "Mozzarella Cheese coated in seasoned Italian Breadcrumbs, deep fried in oil"
-        },
-        {
-            "name":"Italian Sub",
-            "category":2,
-            "sizes": ["6 in","footlong"],
-            "ingridients": "Ham, Salami, Capicolla, Provolone Cheese, Lettuce, Onion, Oil and Vinegar, Cracked Black Pepper, Dried Oregano and Mayo"
-        },
-        {
-            "name": "Wise Guy Sub",
-            "category":2,
-            "sizes": ["6 in", "footlong"],
-            "ingridients": "Turkey, Ham, Roast beef, Lettuce, Tomato, Onion, Honey Mustard and Mayo on an Italian Sub roll"
-        },
-        {
-            "name": "Cousin Manny Sub",
-            "category": 2,
-            "sizes": ["6 in", "footlong"],
-            "ingridients": "Mortadella, Pesto, Artichoke Hearts, Sundried tomatoes, Provolone cheese"
-        },
-        {
-            "name": "Chicken Parmesan",
-            "category": 3,
-            "sizes": ["6 in", "footlong"],
-            "ingridients": "Breaded Chicken, Pizza Sauce and Mozzarella Cheese toasted on an Italian sub roll"
-        },
-        {
-            "name": "Chicken Cordon Bleu",
-            "category": 3,
-            "sizes": ["6 in", "footlong"],
-            "ingridients": "Grilled Chicken, Ham, Swiss cheese, Lettuce, Tomato and Honey Mustard toasted on an Italian sub roll"
-        },
-        {
-            "name": "Roma",
-            "category": 3,
-            "sizes": ["6 in", "footlong"],
-            "ingridients": "Marinated Eggplant, Pesto, Sundried Tomatoes, Provolone Cheese, Lettuce, and Tomato toasted on an Italian sub roll"   
-        },
-        {
-            "name": "Deep Fried Oreos",
-            "category": 4,
-            "sizes": ["small", "large"],
-            "ingridients": "Oreo cookies dipped in batter, and Powdered Sugar deep fried in Vegetable oil"
-        },
-        {
-            "name": "Cannoli",
-            "category": 4,
-            "sizes": ["small", "large"],
-            "ingridients": "Ricotta, Cream, Cheese, Sugar, Egg, Chocolate Chips, Flour, Powdered sugar and Ground Cinnamon in a tube shapped shell of fried pastry dough"
-        },
-        {
-            "name": "Tiramisu",
-            "category": 4,
-            "sizes": ["3.5in", "7.5in"],
-            "ingridients": "Mascarpone, Ladyfinger, Egg, Chocolate, Cream, Coffee, Cheese, Sugar, Yolk, Cocoa Solids and Expresso"
-        }
-    ],
-    "categories":[
-        "Drinks",
-        "Appetizers",
-        "Cold Sandwiches",
-        "Hot Sandwiches",
-        "Desserts"
-    ]
-}}
+            "Appetizers": [
+                {
+                    "name": "Mozzerella Sticks",
+                    "ingredients": "Mozzarella Cheese coated in seasoned Italian Breadcrumbs, deep fried in oil",
+                    "size": [
+                        "small",
+                        "large"
+                    ]
+                },
+                {
+                    "name": "Fries",
+                    "ingredients": "Fresh cut potatoes covered with our signature batter and fried until golden brown",
+                    "size": [
+                        "small",
+                        "large"
+                    ]
+                
+                }],
+                
+                    "Cold Sandwiches": [
+                        {
+                            "name": "Italian Sub",
+                            "ingredients": "Ham, Salami, Capicolla, Provolone Cheese, Lettuce, Onion, Oil and Vinegar, Cracked Black Pepper, Dried Oregano and Mayo",
+                            "sizes": [
+                                "6 in",
+                                "footlong"
+                            ]
+                        },
+                        {
+                            "name": "Wise Guy Sub",
+                            "ingredients": "Turkey, Ham, Roast beef, Lettuce, Tomato, Onion, Honey Mustard and Mayo on an Italian Sub roll",
+                            "sizes": [
+                                "6 in",
+                                "footlong"
+                            ]
+                        }],
+                
+                    "Hot Sandwiches": [
+                        {
+                            "name": "Chicken Parmesan",
+                            "ingredients": "Breaded Chicken, Pizza Sauce and Mozzarella Cheese toasted on an Italian sub roll",
+                            "sizes": ["6 in", "footlong"]
+                        },
+                        {
+                            "name": "Chicken Cordon Bleu",
+                            "ingridients": "Grilled Chicken, Ham, Swiss cheese, Lettuce, Tomato and Honey Mustard toasted on an Italian sub roll",
+                            "sizes": ["6 in", "footlong"]
+                        }],
+                
+                    "Desserts": [
+                        {
+                            "name": "Deep Fried Oreos",
+                            "ingridients": "Oreo cookies dipped in batter, and Powdered Sugar deep fried in Vegetable oil",
+                            "sizes": ["small", "large"] 
+                        },
+                        {
+                            "name": "Cannoli",
+                            "ingredients": "Ricotta, Cream, Cheese, Sugar, Egg, Chocolate Chips, Flour, Powdered sugar and Ground Cinnamon in a tube shapped shell of fried pastry dough",
+                            "sizes": ["small", "large"]
+                        }],
+                
+                    "Drinks": [
+                        {
+                        "name": "Soda",
+                        "ingredients": ["coca-cola", "sprite","fanta","Barq's rootbeer","powerade"],
+                        "description": "your choice of soda in 12oz bottles"
+                        },
+                        {
+                            "name": "thai tea",
+                            "ingredients": ["loose leaf black tea", "sugar","evaporated milk","condensed milk","cardamom","star anise"],
+                            "sizes": ["small", "large"] 
+                        }
+                    ]
+                }    
+            ]     
+}
